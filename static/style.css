@@ -1,0 +1,70 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image Preview Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Container for Images */
+.image-container {
+    margin: 30px auto;
+    width: 300px;
+}
+
+/* Custom Footer */
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #888;
+}
